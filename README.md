@@ -192,11 +192,11 @@ This repository includes `pyproject.toml` so the local package can be installed 
 
 Installing all the requirenments from requirenments.txt file:
 
-![**CLI Example**](images/installing%all%the%requirenments.png)
+![**CLI Example**](images/installing_all_the_requirenments.png)
 
 CLI report output:
 
-![**CLI Example**](images/output%of%the%report.png)
+![**CLI Example**](images/output_of_the_report.png)
 
 ## Tests
 
@@ -206,7 +206,7 @@ All tests passing:
 
 ## Pushing task projects to github
 
-![**CLI Example**](images/pushing%the%task%project%to%github.png)
+![**CLI Example**](images/pushing_the_task_project_to_github.png)
 
 # GitHub Commands
 
