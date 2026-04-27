@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+tests/test_cli.py
+tests/test_reports.py
+youtube_clickbait/__init__.py
+youtube_clickbait/cli.py
+youtube_clickbait/csv_reader.py
+youtube_clickbait/models.py
+youtube_clickbait/reports.py
+youtube_clickbait_cli.egg-info/PKG-INFO
+youtube_clickbait_cli.egg-info/SOURCES.txt
+youtube_clickbait_cli.egg-info/dependency_links.txt
+youtube_clickbait_cli.egg-info/requires.txt
+youtube_clickbait_cli.egg-info/top_level.txt
