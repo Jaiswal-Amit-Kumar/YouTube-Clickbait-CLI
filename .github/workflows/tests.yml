@@ -14,4 +14,9 @@ jobs:
           python-version: "3.12"
       - run: python -m pip install --upgrade pip
       - run: pip install -r requirements-dev.txt
-      - run: pytest
+      - run: pip install -e .                      # 1. Install your package first
+      - run: pytest --cov=src --cov-report=xml     # 2. Run tests once with coverage
+      - uses: actions/upload-artifact@v4           # 3. Use v4 (v3 is getting old)
+        with:
+          name: coverage-report
+          path: coverage.xml
